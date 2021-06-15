@@ -18,7 +18,7 @@ import { LogInComponent } from './components/log-in/log-in.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-
+import { GoogleMapsModule } from '@angular/google-maps';
 import {MatSelectModule} from '@angular/material/select';
 import { ExcComponent } from './components/exc/exc.component';
 import { AddPaymdetailsComponent } from './components/add-paymdetails/add-paymdetails.component';
@@ -43,7 +43,8 @@ import { AddPaymdetailsComponent } from './components/add-paymdetails/add-paymde
     FormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    GoogleMapsModule
   ],
 
   providers: [UserService],
